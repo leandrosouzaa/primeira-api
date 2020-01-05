@@ -1,22 +1,22 @@
 
 <div>
-  <a  target="_blank">
-    <img src="https://i.postimg.cc/Hczvc0Tn/javascript.png" alt="javascript"/>
+  <a target="_blank">
+    <img height="70" src="https://i.postimg.cc/Hczvc0Tn/javascript.png" alt="javascript"/>
   </a>
-  <a  target="_blank">
-    <img src="https://i.postimg.cc/5XfHpwJb/nodejs.png" alt="nodejs"/>
-  </a> 
-  <a  target="_blank">
-    <img src="https://i.postimg.cc/6yr2dMDM/git.png" alt="git"/>
-  </a> 
-  <a  target="_blank">
-    <img src="https://i.postimg.cc/Yv8vPh2g/github.png" alt="github"/>
-  </a> 
-  <a  target="_blank">
-    <img src="https://i.postimg.cc/qtRNH4gF/vs-code.png" alt="vs-code"/>
+  <a target="_blank">
+    <img height="70" src="https://i.postimg.cc/5XfHpwJb/nodejs.png" alt="nodejs"/>
   </a> 
   <a target="_blank">
-    <img src="https://i.postimg.cc/k2j5czwv/yarn.png" alt="yarn"/>
+    <img height="70" src="https://i.postimg.cc/6yr2dMDM/git.png" alt="git"/>
+  </a> 
+  <a target="_blank">
+    <img  height="70" src="https://i.postimg.cc/Yv8vPh2g/github.png" alt="github"/>
+  </a> 
+  <a target="_blank">
+    <img height="70" src="https://i.postimg.cc/qtRNH4gF/vs-code.png" alt="vs-code"/>
+  </a> 
+  <a target="_blank">
+    <img  height="70" src="https://i.postimg.cc/k2j5czwv/yarn.png" alt="yarn"/>
   </a>  
 </div>
 
@@ -27,7 +27,7 @@ API desenvolvida durante o primeiro módulo do BootCamp oferecido pela Rocketsea
    Javascript
    
 ## Plataforma utilizada:
-  [NodeJS](https://github.com/nodejs/node);
+  [NodeJS](https://github.com/nodejs/node)
   >Node.js JavaScript runtime ✨🐢🚀✨
 
 ## Objetivo:
