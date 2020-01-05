@@ -34,8 +34,6 @@ API desenvolvida durante o primeiro módulo do BootCamp oferecido pela Rocketsea
   
   
 ## Dependências utilizadas:
-  * [axios @0.19.0](https://github.com/axios/axios);
-    >Promise based HTTP client for the browser and node.js
 
     
 ## Conceitos,tecnologias e técnicas trabalhadas:
@@ -47,7 +45,7 @@ API desenvolvida durante o primeiro módulo do BootCamp oferecido pela Rocketsea
     
 ## Aplicação concluída:
 
-[![app-1.jpg](https://i.postimg.cc/wjz5cZWg/app-1.jpg)](https://postimg.cc/KR9gmqSH) [![app-02.jpg](https://i.postimg.cc/wjWtyGZW/app-02.jpg)](https://postimg.cc/rDry7Q8W)
+
 
 ## Clonagem e debug
 
