@@ -4,7 +4,7 @@
     <img height="70" src="https://i.postimg.cc/Hczvc0Tn/javascript.png" alt="javascript"/>
   </a>
   <a target="_blank">
-    <img height="70" src="https://i.postimg.cc/pLJ1VRSn/nodejs.png" alt="nodejs"/>
+    <img height="70" src="https://i.postimg.cc/PrrMbYVN/nodejs.png" alt="nodejs"/>
   </a> 
   <a target="_blank">
     <img height="70" src="https://i.postimg.cc/6yr2dMDM/git.png" alt="git"/>
