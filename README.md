@@ -43,23 +43,23 @@ API desenvolvida durante o primeiro módulo do BootCamp oferecido pela Rocketsea
     >Fast, unopinionated, minimalist web framework for node.
     
 ## Conceitos,tecnologias e técnicas trabalhadas:
-  * Javascript
+  *Javascript
     -Conceitos básicos;
     -Variáveis;
   
-  * Nodejs
+  *Nodejs
     -Conceito;
     -CallStack;
     -Funcionalidade;
     -Requisições;
     -Comunicação com o front (rotas);
 
-  * Express
+  *Express
     -Conceito;
     -Vantagens;
     -Criação de Rotas;
 
-  * API REST
+  *API REST
     -Conceitos;
     -Rotas
     -Requisições e Respostas;
