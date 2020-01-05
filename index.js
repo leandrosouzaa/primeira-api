@@ -8,7 +8,6 @@ const server = express();
 //o res é a resposta da requisição
 
 server.get('/teste', (req, res) => {
-  console.log('teste');
   return res.json({
     message:'Hello World'
   })

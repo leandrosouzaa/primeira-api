@@ -31,17 +31,58 @@ API desenvolvida durante o primeiro módulo do BootCamp oferecido pela Rocketsea
   [NodeJS](https://github.com/nodejs/node)
   >Node.js JavaScript runtime ✨🐢🚀✨
 
+## Framework utilizado:
+  [express](https://github.com/expressjs/express)
+  >Fast, unopinionated, minimalist web framework for node.
+
 ## Objetivo:
-  
+  Desenvolver uma API do 0 com o objetivo de adquirir conhecimentos sobre a criação API's utilizando a plataforma Nodejs com o uso da dependência express.
   
 ## Dependências utilizadas:
-
+  * [express @4.17.1](https://github.com/expressjs/express);
+    >Fast, unopinionated, minimalist web framework for node.
     
 ## Conceitos,tecnologias e técnicas trabalhadas:
   * Javascript
-
+    -Conceitos básicos;
+    -Variáveis;
   
   * Nodejs
+    -Conceito;
+    -CallStack;
+    -Funcionalidade;
+    -Requisições;
+    -Comunicação com o front (rotas);
+
+  * Express
+    -Conceito;
+    -Vantagens;
+    -Criação de Rotas;
+
+  * API REST
+    -Conceitos;
+    -Rotas
+    -Requisições e Respostas;
+    -CRUD (GET, PUT, POST, DELETE);
+    -Conteúdo da Requisição
+     -Route Params (Direto);
+     -Query Params (?+parametro=valor ex (?page=1));
+     -Body (Conteúdo) (Somente POST e PUT);
+     -Header (Informações extras)
+    -HTTP codes
+     -1xx: Informacionais;
+     -2xx: Sucesso
+      -200: Sucesso;
+      -201: Criado;
+     -3xx: Redirecionamento
+      -301: Mudou permanentemente;
+      -302: Mudou;
+     -4xx: Erro de Cliente
+      -400: Requisição ruim (faltou informação);
+      -401: Acesso não autorizado;
+      -404: Não encontrado;
+     -5xx: Erro do Servidor
+      -500: Erro interno do servidor;
 
     
 ## Aplicação concluída:
