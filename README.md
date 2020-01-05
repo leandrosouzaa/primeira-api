@@ -46,6 +46,7 @@ API desenvolvida durante o primeiro módulo do BootCamp oferecido pela Rocketsea
   * Javascript
     - Conceitos básicos;
     - Variáveis;
+    - Desestruturação;
   
   * Nodejs
     - Conceito;

@@ -8,11 +8,11 @@ const server = express();
 //o req também pode enviar o body (para o get e input)
 //o res é a resposta da requisição
 
-server.get('/teste', (req, res) => {
-  const nome = req.query.nome
+server.get('/users/:id', (req, res) => {
+  const {id} = req.params;
   return res.json({
-    message: `Hello ${nome}`
-  })
-})
+    message: `Buscando o usuário: ${id}`
+  });
+});
 
-server.listen(3000)
+server.listen(3000);
