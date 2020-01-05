@@ -1,6 +1,6 @@
 
 <div>
-  <a target="_blank">
+  <a target="_blank" maring-right="10">
     <img height="70" src="https://i.postimg.cc/Hczvc0Tn/javascript.png" alt="javascript"/>
   </a>
   <a target="_blank">
@@ -44,55 +44,54 @@ API desenvolvida durante o primeiro módulo do BootCamp oferecido pela Rocketsea
     
 ## Conceitos,tecnologias e técnicas trabalhadas:
   * Javascript
-    -Conceitos básicos;
-    -Variáveis;
+    - Conceitos básicos;
+    - Variáveis;
   
   * Nodejs
-    -Conceito;
-    -CallStack;
-    -Funcionalidade;
-    -Requisições;
-    -Comunicação com o front (rotas);
+    - Conceito;
+    - CallStack;
+    - Funcionalidade;
+    - Requisições;
+    - Comunicação com o front (rotas);
 
   * Express
-    -Conceito;
-    -Vantagens;
-    -Criação de Rotas;
+    - Conceito;
+    - Vantagens;
+    - Criação de Rotas;
 
   * API REST
-    -Conceitos;
-    -Rotas
-    -Requisições e Respostas;
-    -CRUD (GET, PUT, POST, DELETE);
-    -Conteúdo da Requisição
-     -Route Params (Direto);
-     -Query Params (?+parametro=valor ex (?page=1));
-     -Body (Conteúdo) (Somente POST e PUT);
-     -Header (Informações extras)
-    -HTTP codes
-     -1xx: Informacionais;
-     -2xx: Sucesso
-      -200: Sucesso;
-      -201: Criado;
-     -3xx: Redirecionamento
-      -301: Mudou permanentemente;
-      -302: Mudou;
-     -4xx: Erro de Cliente
-      -400: Requisição ruim (faltou informação);
-      -401: Acesso não autorizado;
-      -404: Não encontrado;
-     -5xx: Erro do Servidor
-      -500: Erro interno do servidor;
+    - Conceitos;
+    - Rotas
+    - Requisições e Respostas;
+    - CRUD (GET, PUT, POST, DELETE);
+    - Conteúdo da Requisição
+      - Route Params (Direto);
+      - Query Params (?+parametro=valor ex (?page=1));
+      - Body (Conteúdo) (Somente POST e PUT);
+      - Header (Informações extras)
+    - HTTP codes
+      * 1xx: Informacionais;
+      * 2xx: Sucesso
+        - 200: Sucesso;
+        - 201: Criado;
+      * 3xx: Redirecionamento
+        - 301: Mudou permanentemente;
+        - 302: Mudou;
+      * 4xx: Erro de Cliente
+        - 400: Requisição ruim (faltou informação);
+        - 401: Acesso não autorizado;
+        - 404: Não encontrado;
+      - 5xx: Erro do Servidor
+        - 500: Erro interno do servidor;
 
     
 ## Aplicação concluída:
 
 
-
 ## Clonagem e debug
-
-Caso clone o projeto, será necessário rodar o comando ```yarn install``` para instalar todas as dependências contidas no package.json
-
+Caso clone o projeto, será necessário rodar o comando ```yarn install``` para instalar todas as dependências contidas no package.json.
+Após a execução do comando digite ```node index``` e abra o seguinte endereço em seu navegador: http://localhost:3000/ + rota que deseja visualizar.
+ 
 ## Desenvolvedor:
   [@leandrosouzaa](https://github.com/leandrosouzaa)
   >A Padawan Programmer
