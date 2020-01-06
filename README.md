@@ -89,11 +89,16 @@ API desenvolvida durante o primeiro módulo do BootCamp oferecido pela Rocketsea
         - 404: Não encontrado;
       - 5xx: Erro do Servidor
         - 500: Erro interno do servidor;
+    - Middlewares
+      - Conceito;
+      - Criação;
+      
   * Insomnia
     - Teste de Rotas;
   * Nodemon
     - Uso;
     - Configuração e instalação;
+
 
     
 ## Aplicação concluída:

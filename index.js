@@ -12,17 +12,40 @@ server.use(express.json());
 
 const users =['Leandro','Arthur','Diego']
 
+server.use((req, res, next) => {
+  console.time('Requisição finalizada em')
+  console.log(`Método: ${req.method}, URL:${req.url}`)
+  
+  next();
+
+  console.timeEnd('Requisição finalizada em')
+})
+
+checkNameExists = (req, res, next) => {
+  if (!req.body.name) {
+    return res.status(400).json({error: 'User name is required'})
+  }
+  return next();
+}
+
+checkUserInArray = (req, res, next) => {
+  const user = users[req.params.id]
+  if (!user) {
+    return res.status(400).json({error: 'User does not exists'})
+  }
+  req.user = user;
+  return next();
+}
+
 server.get('/users', (req,res) => {
   return res.json(users);
 });
 
-server.get('/users/:id', (req, res) => {
-  const {id} = req.params;
-
-  return res.json(users[id]);
+server.get('/users/:id',checkUserInArray, (req, res) => {
+  return res.json(req.user);
 });
 
-server.post('/users', (req,res) => {
+server.post('/users', checkNameExists,(req,res) => {
   const {name} = req.body;
 
   users.push(name);
@@ -30,7 +53,7 @@ server.post('/users', (req,res) => {
   return res.json(users);
 });
 
-server.put('/users/:id', (req,res) => {
+server.put('/users/:id',checkUserInArray,checkNameExists, (req,res) => {
   const {id} = req.params;
   const {name} = req.body;
 
@@ -39,12 +62,12 @@ server.put('/users/:id', (req,res) => {
   return res.json(users)
 });
 
-server.delete('/users/:id', (req, res) => {
+server.delete('/users/:id',checkUserInArray, (req, res) => {
   const {id} = req.params;
 
-  users.splice(id, 1)
+  users.splice(id, 1);
 
-  return res.send()
-})
+  return res.send();
+});
 
 server.listen(3000);
