@@ -1,4 +1,3 @@
-
 <div>
   <a target="_blank" maring-right="10">
     <img height="70" src="https://i.postimg.cc/Hczvc0Tn/javascript.png" alt="javascript"/>
@@ -98,11 +97,6 @@ API desenvolvida durante o primeiro módulo do BootCamp oferecido pela Rocketsea
   * Nodemon
     - Uso;
     - Configuração e instalação;
-
-
-    
-## Aplicação concluída:
-
 
 ## Clonagem e debug
 Caso clone o projeto, será necessário rodar o comando ```yarn install``` para instalar todas as dependências contidas no package.json.
