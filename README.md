@@ -92,7 +92,7 @@ API desenvolvida durante o primeiro módulo do BootCamp oferecido pela Rocketsea
     - Middlewares
       - Conceito;
       - Criação;
-      
+
   * Insomnia
     - Teste de Rotas;
   * Nodemon
