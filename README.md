@@ -7,7 +7,7 @@
     <img height="70" src="https://i.postimg.cc/PrrMbYVN/nodejs.png" alt="nodejs"/>
   </a>
   <a target='_blank'>
-    <img height="70" src='https://i.postimg.cc/T1MqQ19C/insomnia.png'alt='insomnia'/>
+    <img src='https://i.postimg.cc/T1MqQ19C/insomnia.png'alt='insomnia'/>
   </a>
   <a target="_blank">
     <img height="70" src="https://i.postimg.cc/6yr2dMDM/git.png" alt="git"/>
@@ -42,8 +42,10 @@ API desenvolvida durante o primeiro módulo do BootCamp oferecido pela Rocketsea
   Desenvolver uma API do 0 com o objetivo de adquirir conhecimentos sobre a criação API's utilizando a plataforma Nodejs com o uso do framework express.
   
 ## Dependências utilizadas:
-  * [express @4.17.1](https://github.com/expressjs/express);
+  * [express @4.17.1](https://github.com/expressjs/express)
     >Fast, unopinionated, minimalist web framework for node.
+  * [Nodemon @2.0.2](https://github.com/remy/nodemon)
+    >Monitor for any changes in your node.js application and automatically restart the server - perfect for development 
     
 ## Conceitos,tecnologias e técnicas trabalhadas:
   * Javascript
@@ -89,6 +91,9 @@ API desenvolvida durante o primeiro módulo do BootCamp oferecido pela Rocketsea
         - 500: Erro interno do servidor;
   * Insomnia
     - Teste de Rotas;
+  * Nodemon
+    - Uso;
+    - Configuração e instalação;
 
     
 ## Aplicação concluída:
