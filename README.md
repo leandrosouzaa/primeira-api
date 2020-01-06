@@ -7,7 +7,7 @@
     <img height="70" src="https://i.postimg.cc/PrrMbYVN/nodejs.png" alt="nodejs"/>
   </a>
   <a target='_blank'>
-    <img src='https://i.postimg.cc/T1MqQ19C/insomnia.png'alt='insomnia'/>
+    <img  height="70" src='https://i.postimg.cc/T1MqQ19C/insomnia.png'alt='insomnia'/>
   </a>
   <a target="_blank">
     <img height="70" src="https://i.postimg.cc/6yr2dMDM/git.png" alt="git"/>
