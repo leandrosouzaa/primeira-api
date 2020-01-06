@@ -2,6 +2,8 @@ const express = require('express');
 
 const server = express();
 
+server.use(express.json());
+
 //o usuário pode enviar route params e os query params(users/1)
 //o route vem direto e o query vem com o '?' antes(?teste=1)
 // request body vem o corpo da requisição (dados para serem salvos por exemplo)
@@ -10,10 +12,39 @@ const server = express();
 
 const users =['Leandro','Arthur','Diego']
 
+server.get('/users', (req,res) => {
+  return res.json(users);
+});
+
 server.get('/users/:id', (req, res) => {
   const {id} = req.params;
-  console.log(id)
+
   return res.json(users[id]);
 });
+
+server.post('/users', (req,res) => {
+  const {name} = req.body;
+
+  users.push(name);
+
+  return res.json(users);
+});
+
+server.put('/users/:id', (req,res) => {
+  const {id} = req.params;
+  const {name} = req.body;
+
+  users[id] = name;
+
+  return res.json(users)
+});
+
+server.delete('/users/:id', (req, res) => {
+  const {id} = req.params;
+
+  users.splice(id, 1)
+
+  return res.send()
+})
 
 server.listen(3000);
