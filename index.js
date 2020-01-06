@@ -8,11 +8,12 @@ const server = express();
 //o req também pode enviar o body (para o get e input)
 //o res é a resposta da requisição
 
+const users =['Leandro','Arthur','Diego']
+
 server.get('/users/:id', (req, res) => {
   const {id} = req.params;
-  return res.json({
-    message: `Buscando o usuário: ${id}`
-  });
+  console.log(id)
+  return res.json(users[id]);
 });
 
 server.listen(3000);

@@ -5,7 +5,10 @@
   </a>
   <a target="_blank">
     <img height="70" src="https://i.postimg.cc/PrrMbYVN/nodejs.png" alt="nodejs"/>
-  </a> 
+  </a>
+  <a target='_blank'>
+    <img src='https://i.postimg.cc/T1MqQ19C/insomnia.png'alt='insomnia'/>
+  </a>
   <a target="_blank">
     <img height="70" src="https://i.postimg.cc/6yr2dMDM/git.png" alt="git"/>
   </a> 
@@ -36,7 +39,7 @@ API desenvolvida durante o primeiro módulo do BootCamp oferecido pela Rocketsea
   >Fast, unopinionated, minimalist web framework for node.
 
 ## Objetivo:
-  Desenvolver uma API do 0 com o objetivo de adquirir conhecimentos sobre a criação API's utilizando a plataforma Nodejs com o uso da dependência express.
+  Desenvolver uma API do 0 com o objetivo de adquirir conhecimentos sobre a criação API's utilizando a plataforma Nodejs com o uso do framework express.
   
 ## Dependências utilizadas:
   * [express @4.17.1](https://github.com/expressjs/express);
@@ -84,6 +87,8 @@ API desenvolvida durante o primeiro módulo do BootCamp oferecido pela Rocketsea
         - 404: Não encontrado;
       - 5xx: Erro do Servidor
         - 500: Erro interno do servidor;
+  * Insomnia
+    - Teste de Rotas;
 
     
 ## Aplicação concluída:
@@ -96,3 +101,4 @@ Após a execução do comando digite ```node index``` e abra o seguinte endereç
 ## Desenvolvedor:
   [@leandrosouzaa](https://github.com/leandrosouzaa)
   >A Padawan Programmer
+ 
