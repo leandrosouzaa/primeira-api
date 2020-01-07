@@ -100,7 +100,7 @@ API desenvolvida durante o primeiro módulo do BootCamp oferecido pela Rocketsea
 
 ## Clonagem e debug
 Caso clone o projeto, será necessário rodar o comando ```yarn install``` para instalar todas as dependências contidas no package.json.
-Após a execução do comando digite ```node index``` e abra o seguinte endereço em seu navegador: http://localhost:3000/ + rota que deseja visualizar.
+Após a execução do comando digite ```yarn dev``` e abra o seguinte endereço em seu navegador: http://localhost:3000/ + rota que deseja visualizar.
  
 ## Desenvolvedor:
   [@leandrosouzaa](https://github.com/leandrosouzaa)
