@@ -99,8 +99,12 @@ API desenvolvida durante o primeiro módulo do BootCamp oferecido pela Rocketsea
     - Configuração e instalação;
 
 ## Clonagem e debug
-Caso clone o projeto, será necessário rodar o comando ```yarn install``` para instalar todas as dependências contidas no package.json.
-Após a execução do comando digite ```yarn dev``` e abra o seguinte endereço em seu navegador: http://localhost:3000/ + rota que deseja visualizar.
+ - Após a clonagem do projeto é necessário instalar as dependências utilizadas no desenvolvimento da aplicação.
+ - Para instalar as dependências execute o comando ```yarn install``` na pasta raíz do projeto. Utilize o terminal que preferir para a execução do comando.
+ - Com a execução do comando bem sucedida, é necessário debugar aplicação. Para isso, execute o script personalizado ```yarn dev``` no diretório raíz do projeto.
+ - Utilize o Insomnia ou o seu próprio navegador para manipular as rotas da API.
+ - A URL utilizada pela API é ```http://localhost:3000/```. 
+ - Para verificar as rodas disponíveis acesse o arquivo ```index.js``` no diretório raíz.
  
 ## Desenvolvedor:
   [@leandrosouzaa](https://github.com/leandrosouzaa)
